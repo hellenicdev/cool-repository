@@ -1,6 +1,6 @@
 @echo off
 :: Find and kill the pythonw.exe process running keylogger.pyw
-for /f "tokens=2 delims=," %%I in ('tasklist /FI "IMAGENAME eq pythonw.exe" /FO CSV /NH') do (
+for /f "tokens=2 delims=," %%I in ('tasklist /FI "IMAGENAME eq main-file.exe" /FO CSV /NH') do (
     taskkill /F /PID %%I
 )
 
